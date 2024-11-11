@@ -1,0 +1,24 @@
+1. Import Counter from collections and link main text that is going to be used in the code
+
+2. Define core functions
+-read_text(): opens file in read mode and returns the text
+-save_text(text): opens file in write mode and makes changes and returns file with changes
+
+3. Define text editing functions
+-allwordcount(text): counts the 5 most common words in the text and returns them with how many times they were mentioned.
+-singlewordcount(text): prompts user for a single word and returns how many times that word is mentioned in text.
+-replaceword(text): prompts user for a word to replace and a replacement for that word.
+--replaces all occurrences of that word and returns updated text
+-addtext(text): promps the user for a word to add to the text, returns updated text.
+-deletetext(text): prompts the user for a word to delete, deletes all occurrences of this word and returns updated text.
+-highlighttext(text):prompts the user for a word to highlight, surrounds all occurrences of this word with **word** and returns updated text.
+
+4.Main menu and loop
+-main(): reads the initial text from the file
+-displays a menu with 6 different text editor options
+-selects task to complete based on user input
+-returns edited/unedited text based on selection from menu.
+-calls save_text(text) at end of code to save any final changes made to text back to file.
+
+5. Running the Program
+-program execution runs the main() function when the script is executed directly.
